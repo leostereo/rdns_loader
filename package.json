@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer_rdns_load",
+  "version": "1.0.0",
+  "description": "rdns loader automation tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "nodemon index.js -devmode -something 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leostereo/rdns_loader.git"
+  },
+  "author": "leostereo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leostereo/rdns_loader/issues"
+  },
+  "homepage": "https://github.com/leostereo/rdns_loader#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
